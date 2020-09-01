@@ -391,4 +391,8 @@ nav {
         grid-row-gap: 10px;
         justify-items: center;
     }
+    .profitable-text-container {
+        display: flex;
+        flex-direction: column;
+    }
 }
