@@ -392,6 +392,85 @@ nav {
     font-weight: bold;
 }
 
+.how-works-wrap {
+    margin: 0 auto;
+    max-width: 1100px;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.how-works-wrap h2 {
+    font-size: 35px;
+}
+
+.slider-wrap {
+    margin: 0 auto;
+    max-width: 1100px;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.slider-wrap h2 {
+    font-size: 35px;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #E30613;
+    font-size: 8px;
+    top: 1px;
+}
+
+.slick-dots li button:before {
+    font-size: 8px;
+}
+
+.slick-dots li.slick-active button {
+    border: 1px solid #7C7A86;
+    border-radius: 50%;
+}
+
+.slick-dots {
+    bottom: -35px;
+}
+
+.slider-item {
+    position: relative;
+    border: 1px solid #7C7A86;
+    margin: 0 20px;
+    padding: 20px;
+}
+
+.slider-item i {
+    right: 5%;
+    top: 7%;
+    color: #E30613;
+    position: absolute;
+    font-size: 20px;
+}
+
+.slide-date span {
+    text-align: center;
+    display: block;
+    color: #7C7A86;
+    margin-bottom: 6%;
+}
+
+.slider-item img {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    position: absolute;
+    left: 6%;
+}
+
+.slide-text {
+    width: 63%;
+    background-color: #EFEFEF;
+    margin-left: 15%;
+    padding: 6%;
+    border-radius: 0px 10px 10px 5px;
+}
+
 @media screen and (max-width: 765px) {
     .toggle {
         clear: both;
@@ -507,5 +586,12 @@ nav {
     
     .tabs-body {
         width: 100%;
+    }
+    .tabs-body svg {
+        left: 45%;
+        fill: #DDD9FF;
+        position: absolute;
+        top: 28px;
+        transform: rotate(90deg);
     }
 }
