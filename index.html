@@ -1735,7 +1735,15 @@
                 slidesToShow: 3, //сколько слайдов показывать в карусели
                 slidesToScroll: 1, // сколько слайдов прокручивать за раз
                 dots: true,
-                arrows: false
+                arrows: false,
+                responsive:[
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow:1
+                        }
+                    }
+                ]
                 });
             </script>
     
