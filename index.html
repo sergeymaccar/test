@@ -704,6 +704,7 @@
 
             </div>
         </section>
+
         <section class="about-wrap">
             <div class="about-text">
                 <h2>О нас</h2>
@@ -740,6 +741,7 @@
                 <img src="img/poland.jpg" alt="poland">
             </div>
         </section>
+
         <section class="profitable-wrap">
             <h2>Почему работать с нами выгодно</h2>
             
@@ -1716,8 +1718,83 @@
 				</div>
 			</div>
         </section>
+
+        <section class="our-blog-wrap">
+            <h2>Наш блог</h2><span>Показать все</span>
+
+            <div class="blog-articles-container multiple-items-two">
+                <div class="blog-articles-item">
+                    <img src="img/slides/01.jpg" alt="img">
+                    <span>Новости</span>
+                    <span>&bull;</span>
+                    <span>20 августа 2020</span>
+                    <p><strong>Какие лица могут выезжать в Польшу без отбытия карантина?</strong></p>
+                </div>
+                <div class="blog-articles-item">
+                    <img src="img/slides/02.jpg" alt="img">
+                    <span>Новости</span>
+                    <span>&bull;</span>
+                    <span>20 августа 2020</span>
+                    <p><strong>Какие лица могут выезжать в Польшу без отбытия карантина?</strong></p>
+                </div>
+                <div class="blog-articles-item">
+                    <img src="img/slides/03.jpg" alt="img">
+                    <span>Новости</span>
+                    <span>&bull;</span>
+                    <span>20 августа 2020</span>
+                    <p><strong>Какие лица могут выезжать в Польшу без отбытия карантина?</strong></p>
+                </div>
+                <div class="blog-articles-item">
+                    <img src="img/slides/03.jpg" alt="img">
+                    <span>Новости</span>
+                    <span>&bull;</span>
+                    <span>20 августа 2020</span>
+                    <p><strong>Какие лица могут выезжать в Польшу без отбытия карантина?</strong></p>
+                </div>
+            </div>
+
+            
+        </section>
+
+        <section class="map-wrap">
+            
+            <div class="map-frame-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6041.70785555598!2d30.48768357778378!3d50.455530268538865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce63765ef443%3A0xa4200e1a6269c0da!2z0LLRg9C70LjRhtGPINCh0ZbRh9C-0LLQuNGFINCh0YLRgNGW0LvRjNGG0ZbQsiwgNTYsIDExMiwg0JrQuNGX0LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1599126092293!5m2!1sru!2sua"
+                    width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
+            </div>
+            <div class="contacts">
+                <h2>Контакты</h2>
+                <p><i class="fas fa-map-marker-alt"></i>г Киев, ул. Сечевых Стрельцов, д.56,оф, 112</p>
+                </i><p><i class="fas fa-phone-alt"></i>+380 99 458 98 98</p>
+                <p><i class="far fa-envelope"></i>info@sitename.ua</p>
+            </div>
+        </section>
     </main>
 
+    <footer>
+
+        <nav>
+            <input type="checkbox" id="checkbox-menu">
+            <label for="checkbox-menu-footer">
+                <ul class="menu-footer touch-footer">
+                    <li><a href="#" class="logo"><i class="fas fa-users"></i><span>JOB</span>PRO<p>OUTSOURCING CONSORCIUM</p></a></li>
+                    <li><a href="#">Вакансии</a></li>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Преимущества</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Этапы работы</a></li>
+                    <li><a href="#">Отзывы</a></li>
+                    <li><a href="#">Контакты</a></li>
+                    <li><a href="#" class="chat-footer">Начать чат<i class="fab fa-telegram-plane"></i><i class="fab fa-viber"></i><i class="fab fa-skype"></i><i class="fab fa-whatsapp"></i></a></li> 
+                </ul>
+                <a href="#" class="phone-footer">+380 (99) 587-89-99</a>
+            </label>
+        </nav>
+        
+    </footer>
+    
 
 
     <script src="js/main.js"></script>
@@ -1744,6 +1821,24 @@
                         }
                     }
                 ]
+                });
+            </script>
+
+            <script>
+                $('.multiple-items-two').slick({
+                    slidesToShow: 3, //сколько слайдов показывать в карусели
+                    slidesToScroll: 1, // сколько слайдов прокручивать за раз
+                    dots: false,
+                    arrows: false,
+                    responsive: [
+                        {
+                            breakpoint: 768,
+                            settings: {
+                                slidesToShow: 1,
+                                dots: true
+                            }
+                        }
+                    ]
                 });
             </script>
     
