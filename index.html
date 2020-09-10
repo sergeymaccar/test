@@ -1819,7 +1819,14 @@
                         settings: {
                             slidesToShow:1
                         }
-                    }
+                    },
+                    {
+                            breakpoint: 992,
+                            settings: {
+                                slidesToShow: 2,
+                                dots: true
+                            }
+                        },
                 ]
                 });
             </script>
@@ -1832,12 +1839,19 @@
                     arrows: false,
                     responsive: [
                         {
-                            breakpoint: 768,
+                            breakpoint: 530,
                             settings: {
                                 slidesToShow: 1,
                                 dots: true
                             }
-                        }
+                        },
+                        {
+                            breakpoint: 768,
+                            settings: {
+                                slidesToShow: 2,
+                                dots: true
+                            }
+                        },
                     ]
                 });
             </script>
